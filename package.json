@@ -1,0 +1,43 @@
+{
+  "name": "AngularSeedProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc:w": "tsc -w",
+    "start": "npm run tsc:w",
+    "serve": "lite-server -c=bs-config.json",
+    "build":"webpack",
+    "webpackdevelopmentnmode": "npm run build  --mode development",
+    "webpackproductionmode": "npm run build --mode production",
+    "webpackdevserve": "webpack-dev-server --mode development --open"
+  },
+  "keywords": [],
+  "author": "Debasish <kkdebasish@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "~4.0.0",
+    "@angular/compiler": "~4.0.0",
+    "@angular/core": "~4.0.0",
+    "@angular/forms": "~4.0.0",
+    "@angular/http": "~4.0.0",
+    "@angular/platform-browser": "~4.0.0",
+    "@angular/platform-browser-dynamic": "~4.0.0",
+    "@angular/router": "~4.0.0",
+    "angular-in-memory-web-api": "~0.3.0",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.1",
+    "systemjs": "0.19.40",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2",
+    "ts-loader": "^4.1.0",
+    "typescript": "~2.1.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "repository": {}
+}
